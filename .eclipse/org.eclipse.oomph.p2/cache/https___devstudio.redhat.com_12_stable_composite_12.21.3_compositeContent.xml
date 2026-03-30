@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='Red Hat CodeReady Studio - Core + Central Update Site - JBDS-ssh/12/stable/composite/12.21.3/' type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1644338379000'/>
+    <property name='p2.compressed' value='true'/>
+  </properties>
+  <children size='4'>
+    <child location='https://devstudio.redhat.com/targetplatforms/devstudiotarget/4.21.3.Final-SNAPSHOT/REPO/'/>
+    <child location='https://devstudio.redhat.com/targetplatforms/jbtcentraltarget/4.21.3.Final-SNAPSHOT/REPO/'/>
+    <child location='https://devstudio.redhat.com/static/12/stable/updates/core/12.21.3.GA/'/>
+    <child location='https://devstudio.redhat.com/static/12/stable/updates/central/12.21.3.GA/'/>
+  </children>
+</repository>

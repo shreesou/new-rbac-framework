@@ -1,0 +1,47 @@
+00:00:00.026965 main     VirtualBox COM Server 6.1.32 r149290 win.amd64 (Jan 17 2022 11:29:30) release log
+00:00:00.026973 main     Log opened 2025-07-10T07:58:32.388437200Z
+00:00:00.026975 main     Build Type: release
+00:00:00.026995 main     OS Product: Windows 10
+00:00:00.026998 main     OS Release: 10.0.19045
+00:00:00.027000 main     OS Service Pack: 
+00:00:00.240841 main     DMI Product Name: 20N3S5XU1Y
+00:00:00.276948 main     DMI Product Version: ThinkPad T490
+00:00:00.282802 main     Firmware type: UEFI
+00:00:00.285315 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.293799 main     Host RAM: 16099MB (15.7GB) total, 3889MB (3.7GB) available
+00:00:00.293829 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.293832 main     Process ID: 17780
+00:00:00.293835 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.557048          VirtualBox: object creation starts
+00:00:00.565298          Home directory: 'C:\Users\Soumyashree B V\.VirtualBox'
+00:00:00.575792          Installed Drivers:
+00:00:00.593121            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.32.49290)
+00:00:00.604701            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.32.49290)
+00:00:00.612298            C:\Windows\system32\DRIVERS\VBoxSup.sys (Version: 6.1.32.49290)
+00:00:00.623346            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.32.49290)
+00:00:00.715864          usbLibGetDevices: Starting USB device enumeration
+00:00:00.745420          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&b91e478&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:00.752126          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&b91e478&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:02.667096          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:02.676396          USB: Unknown USB device detected (idVendor: 0x04ca, idProduct: 0x7070)
+00:00:02.678657          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:02.986855          HostDnsMonitor: initializing
+00:00:03.009898          HostDnsMonitor: updating information
+00:00:03.016913          HostDnsMonitor: old information
+00:00:03.016916            no server entries
+00:00:03.016918            no domain set
+00:00:03.016919            no search string entries
+00:00:03.016920          HostDnsMonitor: new information
+00:00:03.016921            server 1: 8.8.8.8
+00:00:03.016922            server 2: 8.8.4.4
+00:00:03.016923            server 3: 202.83.21.2
+00:00:03.016924            no domain set
+00:00:03.016925            no search string entries
+00:00:03.308466          VD: VDInit finished with VINF_SUCCESS
+00:00:03.332094          VirtualBox: object created
+00:00:03.375295          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'legato-docker-vm'}, preserve=false aResultDetail=0
+00:00:08.443313 main     VirtualBox: object deletion starts
+00:00:08.451775 main     HostDnsMonitor: shutting down ...
+00:00:08.452087 main     HostDnsMonitor: shut down
+00:00:08.460072 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:08.466521 main     VirtualBox: object deleted
